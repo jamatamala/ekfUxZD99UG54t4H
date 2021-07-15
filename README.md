@@ -30,6 +30,14 @@ Predict if a customer is happy or not based on the answers they give to question
 
 Before defining a strategy to achieve the goal of the project, it is worth describing the nature of the problem.
 
+Predicting customer happines: The first thing to note is that the dependent variable is binary. Therefore we are facing a classification problem. In other words, we will be predicting whether, given the explanatory variables, a consumer is happy or not. 
+
+In this first stage of the analysis I will use all the variables included in the database. 
+
+One thing to note is that the explanatory variables range from 1 to 5. Therefore, to avoid bias in the results, I will standardize the variables. This also serves an additional purpose because one can assume that a consumer is happy when he/she receives an above expected (or average) quality of service and unhappy when he/she receives less.
+
+
+
 In general, one can assume that a customer will be satisfied each time his expectations are exceeded or each time his expectations are fully met.
 
 The first dimension is probably the most important during the growth stage of a company, in which acquiring new customers is of fundamental importance. The second dimension is probably more important to ensure the loyalty of existing customers.
